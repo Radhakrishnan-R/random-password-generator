@@ -18,6 +18,10 @@
 
 
 <script type="text/javascript">
+    document.querySelector("button").addEventListener("click", () => {
+        createPassword();
+    });
+
     const passwordBox = document.querySelector("#password");
     
     const UpperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -50,7 +54,6 @@
 
     }
 
-    createPassword();
 </script>    
 </body>
 </html>
